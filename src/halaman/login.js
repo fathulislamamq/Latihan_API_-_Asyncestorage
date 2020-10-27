@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import AsynStorage from '@react-native-async-storage/async-storage';
 
-export default class login extends Component {
+export default class SignIn extends Component {
   login = () => {
     const url = 'http://restful-api-laravel-7.herokuapp.com/api/login';
 
